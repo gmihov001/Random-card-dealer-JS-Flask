@@ -6,5 +6,11 @@ import "../assets/img/4geeks.ico";
 import "../style/index.scss";
 
 window.onload = function() {
-  console.log("Hello Rigo from the console!");
+  <div class="wrapper">
+    <div class="card">
+      <div class="top">{}</div>
+      <div class="middle"></div>
+      <div class="bottom"></div>
+    </div>
+  </div>;
 };
