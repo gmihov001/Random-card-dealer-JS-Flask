@@ -28,14 +28,26 @@ body {
 .top {
   text-align: left;
   height: 25%;
+  div {
+    font-size: 4em;
+    margin: auto 0 auto 30px;
+  }
 }
 
 .middle {
   text-align: center;
   height: 50%;
+  div {
+    font-size: 6em;
+    margin: auto 0 auto 0;
+  }
 }
 
 .bottom {
   text-align: right;
   height: 25%;
+  div {
+    font-size: 4em;
+    margin: auto 30px auto 0;
+  }
 }
