@@ -13,4 +13,10 @@ window.onload = async function() {
 
   let top_symbol = document.querySelector(".top div");
   top_symbol.innerHTML = response_body.suit;
+
+  let bottom_symbol = document.querySelector(".bottom div");
+  bottom_symbol.innerHTML = response_body.suit;
+
+  let card_number = document.querySelector(".middle div");
+  card_number.innerHTML = response_body.number;
 };
