@@ -31,6 +31,7 @@ body {
   div {
     font-size: 4em;
     margin: auto 0 auto 30px;
+    padding-top: 30px;
   }
 }
 
@@ -38,6 +39,7 @@ body {
   text-align: center;
   height: 50%;
   div {
+    padding-top: 50px;
     font-size: 6em;
     margin: auto 0 auto 0;
   }
@@ -49,5 +51,7 @@ body {
   div {
     font-size: 4em;
     margin: auto 30px auto 0;
+    transform: scaleY(-1);
+    padding-bottom: 30px;
   }
 }
